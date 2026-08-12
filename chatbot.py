@@ -28,7 +28,7 @@ settings_col = db["settings"]
 
 # ================= PREMIUM & LIMIT SETTINGS =================
 MAX_FREE_LINKS = 4  
-LIMIT_RESET_TIME = 28800  # 8 Hours
+LIMIT_RESET_TIME = 43200  # 12 Hours
 # ============================================================
 
 app = Client("MediaSaverBotPro", api_id=API_ID, api_hash=API_HASH, bot_token=BOT_TOKEN)
