@@ -27,7 +27,7 @@ settings_col = db["settings"]
 # ====================================================
 
 # ================= PREMIUM & LIMIT SETTINGS =================
-MAX_FREE_LINKS = 4  
+MAX_FREE_LINKS = 2  
 LIMIT_RESET_TIME = 43200  # 12 Hours
 # ============================================================
 
