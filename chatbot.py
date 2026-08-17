@@ -113,7 +113,7 @@ async def broadcast_message(client, message):
         await message.reply_text(get_font("⚠️ **INVALID FORMAT!**\n**USAGE:** `/gcast Hello everyone!`\nOR REPLY TO A PHOTO/MESSAGE WITH `/gcast`.") + " ✨")
         return
 
-    wait_msg = await message.reply_text(get_font("⏳ **BROADCAST STARTING... PLEASE WAIT.**") + " ✨")
+    wait_msg = await message.reply_text("⏳ **BROADCAST STARTING... PLEASE WAIT.** ✨")
     success_count = 0
     failed_count = 0
 
